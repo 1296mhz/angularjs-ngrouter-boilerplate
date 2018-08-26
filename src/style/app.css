@@ -1,0 +1,53 @@
+/* styles in src/style directory are applied to the whole page */
+body {
+  background: #0147A7;
+  color: #fff;
+  margin: 0px;
+}
+
+a {
+  color: #03A9F4;
+}
+
+.navbar {
+   margin: 0px;
+   padding: 0px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.navbar a:hover.navbar {
+    background-color: #111;
+}
+
+main {
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+}
