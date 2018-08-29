@@ -1,6 +1,6 @@
-_authService.$inject = ['$transitions', "$q", "$http", "API_ENDPOINT"];
+_authService.$inject = ["$q", "$http", "API_ENDPOINT"];
 
-function _authService($transitions, $q, $http, API_ENDPOINT) {
+function _authService($q, $http, API_ENDPOINT) {
 
   let token;
   function saveToken(token) {
@@ -16,7 +16,7 @@ function _authService($transitions, $q, $http, API_ENDPOINT) {
   }
 
   function logout() {
-    console.log("Logout")
+    console.log("Logout");
     token = '';
     window.localStorage.removeItem('mtoken');
   }

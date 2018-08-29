@@ -17,7 +17,6 @@ function _loginController(authService) {
     console.log(this.loginModel);
     //Send user credentials to autService
     authService.request(this.loginModel);
- 
   };
 }
 
